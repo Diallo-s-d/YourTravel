@@ -1,0 +1,64 @@
+.allanounce {
+  width: 45%;
+}
+
+.travelimage {
+  width: 100%;
+  height: 400px;
+}
+
+.travelimage > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+}
+
+.travel_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.travelannounce {
+  padding: 20px;
+  background: hsla(0, 0%, 100%, 0.902);
+  box-shadow: 0 3px 12px rgba(90, 82, 82, 0.251);
+  border-radius: 18px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.boutton > button {
+  width: 150px;
+  height: 35px;
+  border-radius: 7px;
+  background: #fdb242;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.boutton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.info > .price {
+  display: flex;
+}
+.price > h4 {
+  margin-right: 10px;
+}
+
+.icon-text {
+  width: 25px;
+  height: 25px;
+  margin-top: 18px;
+  margin-right: 20px;
+}
+.icon-text > img {
+  width: 100%;
+  height: 100%;
+}

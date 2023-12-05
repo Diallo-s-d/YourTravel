@@ -1,0 +1,27 @@
+ul.menu-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #353472;
+}
+li > a {
+  margin-right: 200px;
+  padding: 20px;
+  color: white;
+}
+a.login-icon {
+  display: flex;
+}
+
+.icon-text {
+  margin: 0px 10px;
+}
+
+ul.menu-list {
+  list-style: none;
+}
+
+:link {
+  text-decoration: none;
+}

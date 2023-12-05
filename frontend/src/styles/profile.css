@@ -1,0 +1,26 @@
+.profile-details {
+  border: solid 2px black;
+  margin: 20px;
+  padding: 20px;
+  width: 20%;
+  height: 20%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h4 {
+  color: #fdb242;
+}
+.user {
+  width: 40px;
+  height: 40px;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+}
+.user > img {
+  width: 100%;
+  height: 100%;
+}

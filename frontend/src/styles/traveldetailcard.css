@@ -1,0 +1,30 @@
+.detailsannounce > .detailsimage {
+  width: 80%;
+  height: 350px;
+}
+
+.detailsimage > img {
+  width: 100%;
+  height: 100%;
+}
+
+.detailsannounce {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+.detailsannounce > .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description > h3 {
+  font-size: 0.9rem;
+  font-style: italic;
+  padding-bottom: 15px;
+  margin-top: 0;
+}

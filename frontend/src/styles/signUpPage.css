@@ -1,0 +1,58 @@
+.formulaire > form {
+  display: flex;
+  flex-direction: column;
+}
+.signup_background {
+  margin: 40px;
+}
+p {
+  color: white;
+}
+
+.btn-login {
+  color: white;
+  text-align: right;
+  margin-bottom: 20px;
+}
+.sign_up {
+  display: flex;
+  padding: 33px 35px 45px;
+  flex-direction: column;
+  position: relative;
+  z-index: 3;
+  margin: 0 auto;
+  width: 403px;
+  max-width: 100%;
+  background: rgba(0, 0, 0, 0.65);
+  border-radius: 10px;
+}
+
+.title > h1 {
+  color: #fdb242;
+  margin-bottom: 20px;
+  font-family: Kumbh Sans, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.identity {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lastname {
+  width: 45%;
+}
+.firstname {
+  width: 45%;
+}
+
+button.btn-create {
+  width: 100%;
+  border-radius: 10px;
+  background: #fdb242;
+  color: white;
+  border: none;
+  margin-top: 30px;
+  height: 50px;
+}

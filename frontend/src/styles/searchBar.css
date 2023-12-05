@@ -1,0 +1,24 @@
+form.search_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  background: hsl(234.38deg 9.75% 92.62% / 43.1%);
+  border-radius: 30px;
+  margin-top: 30px;
+}
+
+.navbar {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  border: solid 2px #fdb242;
+  border-radius: 10px;
+}
+
+.navbar > button {
+  width: 15%;
+  background-color: #353472;
+  color: white;
+  border-radius: 10px;
+}

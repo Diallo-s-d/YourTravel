@@ -1,0 +1,36 @@
+.newsletter {
+  display: flex;
+  justify-content: center;
+}
+
+.newsletters {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+  padding: 10px;
+}
+.title > h2 {
+  text-align: center;
+}
+.inscriptionnews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.inscriptionnews > input[type="submit"] {
+  background-color: #fdb242;
+  margin: 20px 0px;
+}
+form.subscribe {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+}
