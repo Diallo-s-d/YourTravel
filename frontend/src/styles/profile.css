@@ -1,7 +1,8 @@
 .profile-details {
-  border: solid 2px black;
   margin: 20px;
-  padding: 20px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(17, 17, 17, 0.1);
   width: 20%;
   height: 20%;
   text-align: center;

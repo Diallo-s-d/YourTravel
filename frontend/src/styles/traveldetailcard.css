@@ -15,6 +15,7 @@
   margin: 30px;
 }
 
+
 .detailsannounce > .info {
   display: flex;
   flex-direction: column;
@@ -27,4 +28,35 @@
   font-style: italic;
   padding-bottom: 15px;
   margin-top: 0;
+}
+.description {
+  width: 90%;
+  margin-top: 30px;
+}
+.bouttons {
+  display: flex;
+  align-items: center;
+}
+.boutton1> button {
+  width: 150px;
+  height: 35px;
+  border-radius: 7px;
+  background: #fdb242;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.boutton2> button {
+  width: 150px;
+  height: 35px;
+  border-radius: 7px;
+  background:  hsla(145, 79%, 19%, 0.431);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.price> h3{
+  margin-right: 15px;
 }

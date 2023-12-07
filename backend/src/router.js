@@ -6,6 +6,7 @@ const announceControllers = require("./controllers/announceControllers");
 const userControllers = require("./controllers/userControllers");
 const auth = require("./middlewares/auth");
 const newsletterControllers = require("./controllers/newsletterControllers");
+const favoriteControllers = require("./controllers/favoriteControllers");
 
 router.get("/announces", announceControllers.select);
 router.get("/announces/:id", announceControllers.getTravelDetails);
@@ -28,5 +29,9 @@ router.post(
   userControllers.add
 );
 router.post("/logins", auth.checkEmailIfExist, userControllers.verifyPassword);
+
+router.get("/favorites/:userId", favoriteControllers.browse);
+router.post("/favorites", favoriteControllers.addFavorite);
+router.delete("/favorites/:userId/:announceId", favoriteControllers.destroy);
 
 module.exports = router;

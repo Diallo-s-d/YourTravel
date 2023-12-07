@@ -9,20 +9,23 @@ export default function Navbar() {
       <nav>
         <div className="menu-items">
           <ul className="menu-list">
+            <div className="logo">
+              <img src="src/assets/images/logo.png" alt="logo" />
+            </div>
             <li>
-              <Link to="/">Accueil</Link>
+              <Link to="/">Nos bon plans</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/results">Nos bon plans</Link>
               {/* <Link to="/login">Se connecter</Link> */}
+            {/* </li> */}
+            <li>
+              <Link to="/login" className="login-icon">
+                <span>Se connecter</span>
+              </Link>
             </li>
             <li>
-              <Link to="/login" className="login-icon" Nos bon plans>
-                <span>Se connecter</span>
-                {/* <div className="icon-text">
-                <img src="src/assets/images/connecter.png" alt="Se connecter" />
-              </div> */}
-              </Link>
+              <Link to="backoffice">Backoffice</Link>
             </li>
           </ul>
         </div>

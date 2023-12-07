@@ -24,20 +24,26 @@ export default function TravelDetailcard({ details }) {
               <div className="icon-text">
                 <img src="src/assets/images/AV.jpg" alt="icone" />
               </div>
-              <h4> Solo | Aller-Retour</h4>
+              <h3> Solo | Aller-Retour</h3>
               <h3>{details.price} € </h3>
             </div>
             <div className="title">
               <h2>{details.title}</h2>
             </div>
             <div className="description">
-              <h3>
-                {details.description} - {details.activity}{" "}
-              </h3>
+              <h3>{details.description}</h3>
+              <h3> Activité proposée: {details.activity}</h3>
             </div>
           </div>
-          <div className="boutton">
-            <button type="submit"> Réserver </button>
+          <div className="bouttons">
+            <div className="boutton1">
+              <button type="submit"> Réserver </button>
+            </div>
+            <div className="boutton2">
+              <button type="button" className="btn_1">
+                Ajouter aux favoris
+              </button>
+            </div>
           </div>
         </div>
       </div>

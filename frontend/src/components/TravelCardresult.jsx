@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/travelcardresult.css";
 
 export default function Travelcard({ travel }) {
@@ -25,7 +26,9 @@ export default function Travelcard({ travel }) {
             </div>
           </div>
           <div className="boutton">
-            <button type="submit">N'hésite pas et fonce ! </button>
+            <Link to={`/traveldetails/${travel.announce_id}`}>
+              <button type="button">N'hésite pas et fonce !</button>
+            </Link>
           </div>
         </div>
       </div>
@@ -35,6 +38,7 @@ export default function Travelcard({ travel }) {
 
 Travelcard.propTypes = {
   travel: PropTypes.shape({
+    announce_id: PropTypes.number.isRequired,
     image: PropTypes.string,
     continent_name: PropTypes.string,
     country_name: PropTypes.string,

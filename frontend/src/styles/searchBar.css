@@ -5,7 +5,7 @@ form.search_bar {
   padding: 20px;
   background: hsl(234.38deg 9.75% 92.62% / 43.1%);
   border-radius: 30px;
-  margin-top: 30px;
+  margin: 30px;
 }
 
 .navbar {
@@ -17,7 +17,7 @@ form.search_bar {
 }
 
 .navbar > button {
-  width: 15%;
+  width: 25%;
   background-color: #353472;
   color: white;
   border-radius: 10px;

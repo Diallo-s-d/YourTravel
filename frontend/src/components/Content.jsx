@@ -6,6 +6,7 @@ import SignUpPage from "../pages/SignUpPage";
 import TravelDetailPage from "../pages/TravelDetailPage";
 import UpdateUser from "../pages/UpdateUser";
 import Backoffice from "../pages/Backoffice";
+import FavoritePage from "../pages/FavoritePage";
 
 export default function Content() {
   return (
@@ -17,6 +18,7 @@ export default function Content() {
         <Route path="/traveldetails/:id" element={<TravelDetailPage />} />
         <Route path="/backoffice" element={<Backoffice />} />
         <Route path="/updateUser" element={<UpdateUser />} />
+        <Route path="/favorites/:id" element={<FavoritePage />} />
       </Routes>
     </section>
   );

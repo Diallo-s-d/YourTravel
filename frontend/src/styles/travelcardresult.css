@@ -30,7 +30,7 @@
   cursor: pointer;
 }
 
-.boutton > button {
+a > button {
   width: 150px;
   height: 35px;
   border-radius: 7px;

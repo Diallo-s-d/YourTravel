@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import axios from "axios";
+import "../styles/updateUser.css";
 // import { ToastContainer, toast } from "react-toastify";
 // import "react-toastify/dist/ReactToastify.css";
 import ExportContext from "../contexts/Context";
@@ -39,7 +40,7 @@ export default function UpdateUser() {
     axios
       // eslint-disable-next-line prettier/prettier
       .put(
-        `${import.meta.env.VITE_BACKEND_URL}/user/${infoUser.id}`,
+        `${import.meta.env.VITE_BACKEND_URL}/users/${infoUser.id}`,
         selectedUser
       )
       .then((response) => {
@@ -66,7 +67,7 @@ export default function UpdateUser() {
       <ToastContainer /> */}
       {selectedUser && (
         <form className="user-form" onSubmit={onSubmit}>
-          <div>
+          <div className="inputs">
             <label htmlFor="firstname">Nom</label>
             <input
               type="text"
@@ -98,7 +99,7 @@ export default function UpdateUser() {
           <div>
             <label htmlFor="email">Email</label>
             <input
-              type="text"
+              type="email"
               placeholder={selectedUser.email}
               value={selectedUser.email}
               onChange={(event) =>

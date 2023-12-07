@@ -1,11 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;700&family=Roboto&display=swap%22");
 
 .footer {
   background-color: #353472;
   color: #fdb242;
   padding: 40px;
+  margin-top: 20px;
 }
 
+p.copyright {
+  text-align: center;
+}
 .icons {
   display: flex;
   cursor: pointer;
